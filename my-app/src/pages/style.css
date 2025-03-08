@@ -43,7 +43,7 @@ body {
   button {
     width: 100%;
     padding: 5px;
-    background-color: #007bff;
+    background-color: #990a0a;
     color: white;
     font-size: 16px;
     border: none;
@@ -53,14 +53,14 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #f42d3d;
   }
   
   .link {
     display: block;
     margin-top: 10px;
     text-align: center;
-    color: #007bff;
+    color: #f44242;
     text-decoration: none;
   }
   
@@ -74,7 +74,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #007bff; /* Blue background */
+  background-color: #d14c4c; 
   color: white;
   font-family: Arial, sans-serif;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -89,12 +89,12 @@ body {
 
 .navbar-links {
   display: flex;
-  gap: 15px; /* Space between buttons */
+  gap: 15px; 
 }
 
 .navbar-button {
   background-color: white;
-  color: #007bff;
+  color: #990a0a;
   border: none;
   border-radius: 5px;
   padding: 8px 12px;
@@ -104,7 +104,7 @@ body {
 }
 
 .navbar-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #990a0a; 
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
