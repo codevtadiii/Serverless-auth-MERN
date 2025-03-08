@@ -5,6 +5,7 @@ import AboutUs from './pages/aboutus';
 import Login from './pages/login';
 import Register from './pages/register';
 import Navbar from './components/Navbar';
+import RequestForm from './pages/RequestForm';
 
 function App() {
   const isLoggedIn = localStorage.getItem('isLoggedIn'); 
@@ -18,7 +19,9 @@ function App() {
             path="/home"
             element={isLoggedIn ? <Home /> : <Navigate to="/login" />}
           />
-          <Route path="/aboutus" element={<AboutUs />} />
+           <Route path="/" element={<Home />} />
+           <Route path="/request-form" element={<RequestForm />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/home" element={<Home />} />
