@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav className="navbar">
-      <a href='./home'><h2 className="navbar-logo">Unify</h2></a>
+      <a href='./home'><h2 className="navbar-logo">HEMO-CONNECT</h2></a>
       <div className="navbar-links">
         <Link to="/home">
           <button>Home</button>
