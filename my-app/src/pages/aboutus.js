@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <div>
       <h1>About Us</h1>
-      <p>Learn more about our me and my values.</p>
+      <p>Learn more about our me and our values.</p>
     </div>
   );
 }
